@@ -1,0 +1,146 @@
+
+ Task 1: Calculate Average
+
+Explanation:
+We want to find the average of a list of numbers. First, we add all the numbers together. Then, we divide the total by how many numbers are in the list.
+
+Flowchart Steps:
+Start →
+Input list of numbers →
+Set sum = 0 →
+Loop through the list and add each number to sum →
+Calculate average = sum / count →
+Output average →
+End
+
+Task 2: Check if a Number is Even or Odd
+
+Explanation:
+We check if a number can be divided by 2. If there is no remainder, the number is even. Otherwise, it is odd.
+
+Flowchart Steps:
+Start 
+Input number 
+Check if number % 2 = 0 
+Yes: Output "Even" 
+No: Output "Odd" 
+End
+
+Task 3: Find the Smallest Number in a List
+
+Explanation:
+We assume the first number is the smallest. Then, we compare it with the other numbers and update it when a smaller number is found.
+
+Flowchart Steps:
+Start →
+Input list of numbers →
+Set smallest = first number →
+Loop through the list →
+If current number < smallest, update smallest →
+End loop →
+Output smallest →
+End
+
+Task 4: Count Positive and Negative Numbers
+
+Explanation:
+We count how many numbers are positive and how many are negative. A positive number is greater than zero, and a negative number is less than zero.
+
+Flowchart Steps:
+Start →
+Input list of numbers →
+Set positive = 0, negative = 0 →
+Loop through the list →
+If number > 0, increase positive count →
+If number < 0, increase negative count →
+End loop →
+Output positive and negative counts →
+End
+
+Task 5: Remove Duplicates from a List
+
+Explanation:
+We create a new list that contains only unique numbers. We add a number only if it does not already exist in the new list.
+
+Flowchart Steps:
+Start →
+Input list of numbers →
+Create empty unique list →
+Loop through the list →
+If number is not in unique list, add it →
+End loop →
+Output unique list →
+End
+
+Task 6: Find All Prime Numbers Up to N
+
+Explanation:
+A prime number is divisible only by 1 and itself. We check every number from 2 up to N and print the prime ones.
+
+Flowchart Steps:
+Start →
+Input N →
+For each number from 2 to N →
+Check if number has any divisors →
+If prime, output number →
+End loop →
+End
+
+Task 7: Merge Two Sorted Lists
+
+Explanation:
+We combine two sorted lists into one list and then sort the combined list.
+
+Flowchart Steps:
+Start →
+Input sorted list A and sorted list B →
+Merge both lists →
+Sort merged list →
+Output merged list →
+End
+
+Task 8: Find the Second Largest Number
+
+Explanation:
+We keep track of the largest and second largest numbers while checking the list.
+
+Flowchart Steps:
+Start →
+Input list of numbers →
+Set largest and second largest →
+Loop through the list →
+Update largest and second largest when needed →
+End loop →
+Output second largest →
+End
+
+Task 9: Check if a String is a Palindrome
+
+Explanation:
+A palindrome reads the same forwards and backwards. We reverse the string and compare it with the original string.
+
+Flowchart Steps:
+Start →
+Input string →
+Reverse the string →
+Compare original and reversed strings →
+If equal, output "Palindrome" →
+Else, output "Not a Palindrome" →
+End
+
+Task 10: Generate Fibonacci Sequence
+
+Explanation:
+The Fibonacci sequence starts with 0 and 1. Each next number is the sum of the two previous numbers.
+
+Flowchart Steps:
+Start 
+Input N 
+Set first = 0, second = 1 
+Loop to generate next numbers 
+Calculate next = first + second 
+Output next number 
+Update values 
+End loop 
+End
+
